@@ -1,0 +1,30 @@
+body {
+	font-family: "courier";
+  	line-height: 1.7em;
+  	background-color: #406051;
+  	color: #8fb19d;
+  	font-size: .9em;
+  	letter-spacing: .05em;
+  	margin: 70px;
+}
+
+h1 {
+	color: #512326;
+	font-size: 3em;
+	font-family: "Impact";
+}
+
+h2 {
+	color: #faa7a1;
+	font-size: 1.5em;
+	font-family: "courier";
+}
+
+.name {
+  font-style: italic;
+  color: #faa7a1;
+}
+
+.stage {
+	color: #ddc998;
+}
