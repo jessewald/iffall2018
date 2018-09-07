@@ -1,0 +1,36 @@
+body {
+	text-align: center;
+	font-family: "sentinel";
+  	line-height: 1.6em;
+  	background-color: #fbee77;
+  	color: #5ebdec;
+  	font-size: .9em;
+  	letter-spacing: .05em;
+  	margin: 50px;
+}
+
+h1 {
+	color: #5ebdec;
+	font-size: 10em;
+	font-family: "neutraface 2 text bold";
+}
+
+h2 {
+	color: #faa7a1;
+	font-size: 4em;
+	font-family: "sentinel";
+	margin-bottom: 2em;
+}
+
+.devil {
+  color: #ff6769;
+}
+
+.stage {
+	color: #ddc998;
+}
+
+#name {
+  color: #faa7a1;
+  font-weight: bold;
+}
