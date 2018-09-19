@@ -1,0 +1,90 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12pt;
+	line-height: 15pt;
+	background-color: #c1d2d2;
+	color: #28666e;
+	margin: 35pt;
+}
+
+h1 {
+	font-size: 60pt;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	color: #f06261;
+	margin-top: 35pt;
+	line-height: 70pt;
+}
+
+.header {
+	font-size: 16pt;
+	font-weight: bold;
+	color: #28666e;
+	margin-bottom: 1pt;
+}
+
+.info {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12pt;
+	line-height: 15pt;
+}
+
+.font {
+	font-size: 12pt;
+	line-height: 5pt;
+	margin-bottom: 1pt;
+	color: #8d5151;
+}
+
+.sentence {
+	font-size: 12pt;
+	line-height: 1pt;
+	margin-bottom: 1pt;
+	margin-top: 1pt;
+}
+
+#fwn {
+	font-weight: normal;
+}
+#fwb {
+	font-weight: bold;
+}
+#fsn {
+	font-style: normal;
+}
+#fsi {
+	font-style: italic;
+}
+#lsn {
+	letter-spacing: normal;
+}
+#ls3 {
+	letter-spacing: .3em;
+}
+#ls06 {
+	letter-spacing: -.06em;
+}
+#tdn {
+	text-decoration: none;
+}
+#tdu {
+	text-decoration: underline;
+}
+#tdlt {
+	text-decoration: line-through;
+}
+#tdo {
+	text-decoration: overline;
+}
+#ttn {
+	text-transform: none;
+}
+#ttu {
+	text-transform: uppercase;
+}
+#ttl {
+	text-transform: lowercase;
+}
+#ttc {
+	text-transform: capitalize;
+}
