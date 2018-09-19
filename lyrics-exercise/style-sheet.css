@@ -1,29 +1,33 @@
 body {
 	text-align: center;
-	font-family: "sentinel";
+	font-family: 'Maven Pro', sans-serif;
   	line-height: 1.6em;
-  	background-color: #fbee77;
-  	color: #5ebdec;
+  	background-color: #fdfb36;
+  	color: black;
   	font-size: .9em;
   	letter-spacing: .05em;
   	margin: 50px;
 }
 
 h1 {
-	color: #5ebdec;
-	font-size: 10em;
-	font-family: "neutraface 2 text bold";
+	color: black;
+	font-size: 11em;
+	font-family: 'Do Hyeon', sans-serif;
+	text-transform: uppercase;
+	margin-top: 90pt;
+	margin-bottom: 60pt;
 }
 
 h2 {
-	color: #faa7a1;
+	color: #ff00fe;
 	font-size: 4em;
 	font-family: "sentinel";
-	margin-bottom: 2em;
+	margin-bottom: 70pt;
+	font-style: italic;
 }
 
 .devil {
-  color: #ff6769;
+  color: red;
 }
 
 .stage {
@@ -31,6 +35,17 @@ h2 {
 }
 
 #name {
-  color: #faa7a1;
+  color: #ff00fe;
   font-weight: bold;
+  font-style: italic;
+}
+
+.Album {
+    height: 360px;
+    width: 640px;
+    margin-bottom: 60pt;
+}
+
+.chorus {
+	font-weight: bold;
 }
