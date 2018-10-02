@@ -1,0 +1,141 @@
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 16px;
+	color: white;
+}
+
+h1 {
+	font-size: 80px;
+	text-align: center;
+	font-weight: 700px;
+	margin-bottom: 0px;
+	font-weight: 700px;
+	margin-top: 0px;
+	color: white;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	color: white;
+}
+
+header {
+	height: 319px;
+	padding-top: 162px;
+	background-image: url("https://images.unsplash.com/photo-1443890923422-7819ed4101c0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4f18acb8db93abc281f66dcfd2ad9e61&w=1000&q=80");
+	background-size: cover;
+}
+
+p.paragraphs {
+  	font-weight: 400;
+  	font-size: 18px;
+  	line-height: 25px;
+}
+
+section:nth-of-type(1) {
+ 	margin-top: 0px;
+ 	height: 713px;
+ 	background-color: #4F6684;
+ 	
+}
+img.trees {
+	float: right;
+	padding-right: 240px;
+	padding-left: 50px;
+}
+
+br {
+	height: 50px;
+}
+section:nth-of-type(2) {
+ 	margin-top: 0px;
+ 	height: 686px;
+ 	background-color: #66514F;	
+}
+
+section:nth-of-type(3) {
+ 	margin-top: 0px;
+ 	height: 400px;
+ 	background-color: #4F6684;
+}
+
+h3 {
+	margin-top: 0px;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+div.section1 {
+    width: 961px;
+    margin: auto;
+}
+
+div.section2 {
+    margin: auto;
+    width: 961px;
+    font-size: 0px;
+}
+
+div.section3 {
+    width: 720px;
+    margin: auto;
+}
+
+h3 {
+	padding-top: 45px;
+  	font-size: 40px;
+  	margin-bottom: 37px;
+}
+
+.captionedphoto {
+	width: 50%;
+	display: inline-block;
+	font-size: 18px;
+	margin-bottom: 23px;
+	line-height: 25px;
+}
+
+.captionedphoto img {
+	float: left;
+	margin-right: 11px;
+}
+
+.captionedphoto h4 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+.captionedphoto p {
+	margin-top: 6px;
+	margin-right: 30px;
+}
+
+.section3 p {
+	font-size: 26px;
+	text-align: center;
+	position: relative;
+	line-height: 35px;
+}
+
+section:nth-of-type(3) h3 {
+	margin-bottom: 37px;
+}
+
+section:nth-of-type(4) {
+	height: 112px;
+}
+
+section:nth-of-type(4) p {
+	padding-top: 28px;
+	color: black;
+	padding-left: 240px;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+background-color: #66514F;
