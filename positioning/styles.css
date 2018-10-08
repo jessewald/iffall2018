@@ -1,0 +1,38 @@
+.part1 aside{
+	float: right;
+	position: relative;
+}
+
+.part2 aside{
+	position: relative;
+	float: right;
+	top: 120px;
+}
+
+.part3 aside{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	background-color: green;
+	z-index: 1010;
+}
+
+.part4 {
+	position: relative;
+}
+
+#red {
+	background-color: red;
+	position: absolute;	background-color: red;
+	position: absolute;
+	z-index: 1000;
+	left: 320px;
+	top: 200px;
+}
+
+#black {
+	left: 330px;
+	top: 210px;
+	background-color: black;
+	position: absolute;
+}
