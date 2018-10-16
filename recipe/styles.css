@@ -1,0 +1,88 @@
+body {
+	font-size: 16px;
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #fffaf0;
+	color: #BE4A47;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+h1 {
+	font-size: 85px;
+	font-family: 'Yellowtail', cursive;
+	padding-top: 0px;
+	text-align: center;
+	height: 40px;
+	font-weight: bold;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 22px;
+	font-style: italic;
+}
+
+.ingredients {
+	columns: 2;
+	color: #ed7f00;
+	line-height: 22px;
+}
+
+h4 {
+	font-weight: bold;
+	font-size: 22px;
+	font-style: italic;
+}
+
+.directions {
+	color: #ed7f00;
+	padding-left: 25px;
+}
+
+#chili-2 {
+	width: 220px;
+	height: 188.2px;
+	float: right;
+	padding-right: 100px;
+	padding-bottom: 50px;
+}
+
+#chilipic {
+	width: 100%;
+}
+
+p {
+	text-align: right;
+}
+
+.info {
+	text-align: left;
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.steps {
+	color: #BE4A47;
+	line-height: 10px;
+}
+
+.content {
+	text-indent: 20px;
+}
+
+p.content {
+	text-align: left;
+	padding-bottom: 5px;
+}
+
+.content2 {
+	line-height: 22px;
+}
