@@ -1,0 +1,102 @@
+a {
+	display: block; /* turn the inline element into a box */
+	position: fixed; /* position the anchor fixed to the viewport */
+	top: 0; /* have the top edge of the anchor touch the the top of the viewport */
+	bottom: 0;  /* have the bottom edge of the anchor touch the the bottom of the viewport */
+	left: 0;  /* have the left edge of the anchor touch the the left of the viewport */
+	right: 0;  /* have the right edge of the anchor touch the the right of the viewport */
+	z-index: 100; /* make sure the anchor is the highest thing in the stack order of all elements */
+}
+
+body {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+
+@media screen and (max-width: 700px){
+	body{
+		background-image: url(images/dumbledore2_mobile2.0.jpg);
+		font-family: 'Domine', serif;
+		color: white;
+		padding-left: 20%;
+		height: 100%;
+		position: absolute;
+	}
+	div.quote{
+		margin-left: 0px;
+		margin-top: 550px;
+		margin-right: 30px;
+		color: white;
+	}
+	div.message{
+		font-size: 25px;
+		line-height: 28px;
+	}
+	div.person{
+		font-size: 20px;
+		margin-top: 10px;
+		padding-left: 30px;
+		line-height: 23px;
+	}
+}
+
+@media screen and (min-width: 700px){
+	body{
+		background-image: url(images/dumbledore2_desktop2.0.jpg);
+		font-family: 'Domine', serif;
+		color: white;
+		padding-right: 0%;
+		height: 100%;
+		width: 100%
+		position: absolute;
+	}
+	div.quote{
+		margin-left: 44%;
+		margin-top: 550px;
+		margin-right: 0px;
+		color: white;
+	}
+	div.message{
+		font-size: 27px;
+		line-height: 28px;
+		width: 80%;
+	}
+	div.person{
+		font-size: 25px;
+		padding-left: 25px;
+		line-height: 30px;
+		padding-top: 10px;
+	}
+}
+
+@media screen and (min-width: 900px){
+	body{
+		background-image: url(images/dumbledore2_desktop2.0.jpg);
+		font-family: 'Domine', serif;
+		color: white;
+		margin-right: 0px;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+	}
+	div.quote{
+		margin-left: 60%;
+		margin-top: 500px;
+		margin-right: 0px;
+		color: white;
+
+	}
+	div.message{
+		font-size: 30px;
+		line-height: 32px;
+	}
+	div.person{
+		font-size: 27px;
+		padding-left: 28px;
+		padding-top: 20px;
+		line-height: 29px;
+	}
+}
