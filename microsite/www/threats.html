@@ -2,41 +2,62 @@
 <html>
 <head>
 	<title>Pink Fairy Armadillo</title>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="styles2.css">
+
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> 
+
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<script>
+
+		$( document ).ready(function() {
+
+			$(".menu_button i").click(function(){
+				$(".menu").toggleClass("open");
+			});
+
+			$(".menu_button i").click(function(){
+				$(".menu_button").toggleClass("close");
+			});
+
+		});
+
+	</script>	
 </head>
 <body>
 
 
-	<div class="topnav">
-		<i class="fa fa-bars" aria-hidden="true"></i>
-		<div class="menu">
-  		<a href="about.html">ABOUT</a>
-  		<a href="threats.html">THREATS</a>
-  		<a href="conservation.html">CONSERVATION EFFORTS</a>
-  		<a href="you.html">WHAT CAN YOU DO</a>
-  		<a href="https://en.wikipedia.org/wiki/Pink_fairy_armadillo">SOURCE</a>
-  		</div>
-  		<a href="index.html"><img class="icon" src="armadillo_icon2.png"></a>
-	</div> 
-
+<div class="menu_button close"><i class="fa fa-bars" aria-hidden="true"></i></div>
+	<div class="menu open">
+		<a href="index.html">HOME</a>
+		<a href="about.html">ABOUT</a>
+		<a href="threats.html">THREATS</a>
+		<a href="conservation.html">CONSERVATION EFFORTS</a>
+		<a href="you.html">WHAT CAN YOU DO</a>
+	</div>
 	
 
-
+		
 	<h1>Threats to the species</h1>
 
 	<div class="text">
-		<p id="1">Due to its subterranean lifestyle, the armadillo is forced to leave its burrows when heavy storms roll in due to the threat of drowning and the risk of wetting its fur. If its fur is wet the armadillo cannot properly thermoregulate and could experience hypothermia during night hours. Once above ground during a rainstorm the armadillo is subject to an array of predators, which can easily get to it since it is not able to burrow back to safety. Domestic dogs have also greatly preyed on these armadillos. </p>
-		<br>
-		<p id="2">The animals face domestic dogs and cats that forage in their burrows as well as wild boars doing the same. These armadillos also do not do well in captivity. The survival rate is so low that many will die just through transport from where the armadillo was captured to the new area of captivity. Armadillos that are put into captivity typically do not last longer than a few hours or at most 8 days. In fact, not a single specimen has survived more than 4 years. In spite of the high mortality rate associated with captivity, many are sold illegally on the black market, often as pets.</p>
-		<br>
-		<p id="3">These armadillos are very susceptible to climate changes as well; since they inhabit temperate and warm regions, cold temperatures could wipe out its population due to their low metabolism rate and the lack of fat it is able to store. Habitat loss is also a large issue for these species. As the numbers of acres converted to farmland increases, the armadillo’s burrows not only get plowed over, but the land is no longer habitable for them.</p>
-		<br>
-		<br>
+		<p>Due to its subterranean lifestyle, the armadillo is forced to leave its burrows when heavy storms roll in due to the threat of drowning and the risk of wetting its fur. If its fur is wet the armadillo cannot properly thermoregulate and could experience hypothermia during night hours. Once above ground during a rainstorm the armadillo is subject to an array of predators, which can easily get to it since it is not able to burrow back to safety. Domestic dogs have also greatly preyed on these armadillos. </p>
+		<p>The animals face domestic dogs and cats that forage in their burrows as well as wild boars doing the same. These armadillos also do not do well in captivity. The survival rate is so low that many will die just through transport from where the armadillo was captured to the new area of captivity. Armadillos that are put into captivity typically do not last longer than a few hours or at most 8 days. In fact, not a single specimen has survived more than 4 years. 
+		<p class="b">In spite of the high mortality rate associated with captivity, many are sold illegally on the black market, often as pets.</p>
+		<p>These armadillos are very susceptible to climate changes as well; since they inhabit temperate and warm regions, cold temperatures could wipe out its population due to their low metabolism rate and the lack of fat it is able to store. Habitat loss is also a large issue for these species. As the numbers of acres converted to farmland increases, the armadillo’s burrows not only get plowed over, but the land is no longer habitable for them.</p>
+
 	</div>
 
+<div class="footer">
+	<p><a href="https://en.wikipedia.org/wiki/Pink_fairy_armadillo">Source: Wikipedia</a></p>
+	<p>Art Direction by Sarah Rhee</p>
+	<p>Designed by Jess Ewald</p>
+</div>
 
 
 </body>

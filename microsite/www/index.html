@@ -2,40 +2,64 @@
 <html>
 <head>
 	<title>Pink Fairy Armadillo</title>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> 
+
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<script>
+
+		$( document ).ready(function() {
+
+			$(".menu_button i").click(function(){
+				$(".menu").toggleClass("open");
+			});
+
+			$(".menu_button i").click(function(){
+				$(".menu_button").toggleClass("close");
+			});
+
+		});
+
+	</script>	
 </head>
 <body>
 
 
-	<div class="topnav">
-		<i class="fa fa-bars" aria-hidden="true"></i>
-		<div class="menu">
-  		<a href="about.html">ABOUT</a>
-  		<a href="threats.html">THREATS</a>
-  		<a href="conservation.html">CONSERVATION EFFORTS</a>
-  		<a href="you.html">WHAT CAN YOU DO</a>
-  		<a href="https://en.wikipedia.org/wiki/Pink_fairy_armadillo">SOURCE</a>
-  		</div>
-  		<a href="index.html"><img class="icon" src="armadillo_icon2.png"></a>
-	</div> 
 
+<div class="menu_button close"><i class="fa fa-bars" aria-hidden="true"></i></div>
+	<div class="menu open">
+		<a href="index.html">HOME</a>
+		<a href="about.html">ABOUT</a>
+		<a href="threats.html">THREATS</a>
+		<a href="conservation.html">CONSERVATION EFFORTS</a>
+		<a href="you.html">WHAT CAN YOU DO</a>
+	</div>
 	
 
+	<h1>PINK FAIRY ARMADILLO</h1>
 
-	<h1>Pink Fairy Armadillo</h1>
 
 	<div class="text">
-		<p id="1">Considering armadillos are mammals covered in a kind of bony shell, the "little armored ones" are already fascinating little creatures, but pink fairy armadillos are pretty much out of this world.</p>
+		<p id="a">Pink Fairy Armadillos are pretty much out of this world.</p>
+		<p id="b">They are mammals covered in a kind of bony shell, often refered to as the "little armored ones"</p>
 		<br>
-		<p id="2">The solitary, nocturnal animal is just about 6 inches long, making him the tiniest of the 20 varieties of the animal, and is found only in central Argentina. But what's most remarkable about this odd little creature is obviously his color: The armor covering his furry body is a light shade of pink. </p>
+		<p id="c">The solitary, nocturnal animal is just about 6 inches long, making him the tiniest of the 20 varieties of the animal, and is found only in central Argentina. But what's most remarkable about this odd little creature is obviously his color: The armor covering his furry body is a light shade of pink. </p>
 		<br>
-		<p id="3">Not only that, scientists are pretty much baffled by them. Many details about the pink fairy armadillo remain a mystery.</p> 
+		<p id="d">Not only that, scientists are pretty much baffled by them. Many details about the pink fairy armadillo remain a mystery.</p> 
 	</div>
 
-
+<div class="footer">
+	<p><a href="https://en.wikipedia.org/wiki/Pink_fairy_armadillo">Source: Wikipedia</a></p>
+	<p>Art Direction by Sarah Rhee</p>
+	<p>Designed by Jess Ewald</p>
+</div>
 
 </body>
 </html>

@@ -1,11 +1,13 @@
 body {
-    background-image: url("images/pfa_home2.jpg");
+    background-image: url("images/pfa_drawing7.jpg");
     background-repeat: repeat-y;
     background-position: center;
     background-position: top; 
     background-position: fixed;
-    background-size: 1440px 1500px;
+    background-size: 1440px 1100px;
 }
+
+
 
 	.menu_button {
 			position: fixed;
@@ -13,34 +15,30 @@ body {
 			left: 35px;
 			font-size: 30px;
 			z-index: 20;
-			color: black;
-			color: #edd2e0;
 		}
 
 		.menu {
 			background-color: black;
-			width: 1440px;
+			width: 100%;
 			padding-top: 40px;
 			position: fixed;
 			top: 0;
-			left: 0;
+			left: -1440px;
 			z-index: 10;
 			text-align: center;
 			font-family: 'Josefin Sans', sans-serif;
 			height: 50px;
-			padding-top: 14px;
-			padding-bottom: 12px;
 		}
 
 		.menu.open {
-			left: -1440px;
+			left: 0;
 			padding-top: 14px;
 			padding-bottom: 12px;
 
 		}
 
 		.menu_button.close{
-			color: black;
+			color: #edd2e0;
 		}
 
 		.menu a {
@@ -51,23 +49,16 @@ body {
 		}
 
 .icon {
-	z-index: 100;
-	display: inline-block;
+	z-index: 30;
 }
-
-img {
-	width: 100%;
-}
-
-
 
 h1 {
 	font-family: 'Josefin Sans', sans-serif;
 	color: black;
 	text-align: center;
-	padding-top: 270px;
+	padding-top: 140px;
 	font-size: 40px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	z-index: 20;
 	font-style: bold;
 }
@@ -90,23 +81,33 @@ img.icon {
 }
 
 body {
-	
     margin: auto;
+}
+
+.footer {
+	width: 100%;
+	background-color: black;
+	color: #edd2e0;
+	margin: 0px;
+	height: 100px;
+
+}
+
+.footer p {
+	padding-top: 10px;
+	margin: 0px 0px 0px 35px;
+
 }
 
 .text {
 	width: 30%;
-	margin: 10px;
-	display: inline-block;
+	margin: auto;
+	font-size: 0.8rem;
 	vertical-align: top;
 	list-style: none;
-	padding-left: 36%;
 	line-height: 18px;
-	padding-top: 320px;
-	padding-bottom: 50px;
-	color: black;
+	padding-bottom: 20px;
 }
-
 
 
 #a {
@@ -116,29 +117,67 @@ body {
 	line-height: 45px;
 }
 
+#info {
+	color: black;
+	font-size: 30px;
+	text-align: left;
+	line-height: 36px;
+}
+
+.b {
+	color: black;
+	font-size: 30px;
+	text-align: left;
+	line-height: 36px;
+}
+
+.c {
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	line-height: 36px;
+}
+
+.text p {
+	padding-bottom: 25px;
+}
+
+body {
+	margin: auto;
+}
+}
 
 @media only screen and (min-width: 640px) {
     body {
-
+		
     }
     h1 {
-    	font-size: 4.5rem;
+    	font-size: 3rem;
+    }
+
+    .footer {
+    	width: 100%;
+    }
+
+    div.text p {
+    	width: 80%;
+    	margin: 15%;
     }
 
 }
 
 @media only screen and (max-width: 700px) {
-    h1 {
-        font-size: 1.2rem;
-        padding-top: 
-        60px;
+      h1 {
+        font-size: 1.7rem;
+        padding-top: 70px;
         padding-left: 15px;
     }
 
     body {
     	background-size: 100%;
     	font-size: 1.6rem;
-    	background-repeat: none;
+    	background-image: none;
+    	background-color: #fff6fb;
     }
 
     img.icon {
@@ -163,12 +202,13 @@ body {
     }
 
     .text {
+    	
     	font-size: .8rem;
-    	width: 60%;
     	padding-top: 30px;
     	padding-left: 0px;
     	position: center;
-    	padding-left: 20%;
+    	width: 60%;
+    	
 
     }
 
@@ -178,30 +218,16 @@ body {
 
     }
 
-    .footer {
+    .footer p {
     	font-size: .8rem;
     }
 
-
-body {
-	
-    margin: auto;
-}
+    .footer {
+    	width: 100%;
+    }
     
-}
-
-.footer {
-	width: 100%;
-	background-color: black;
-	color: #edd2e0;
-	margin: 0px;
-	height: 100px;
 
 }
 
-.footer p {
-	padding-top: 10px;
-	margin: 0px 0px 0px 35px;
-}
 
 

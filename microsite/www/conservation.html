@@ -2,41 +2,66 @@
 <html>
 <head>
 	<title>Pink Fairy Armadillo</title>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="styles2.css">
+
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> 
+
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<script>
+
+		$( document ).ready(function() {
+
+			$(".menu_button i").click(function(){
+				$(".menu").toggleClass("open");
+			});
+
+			$(".menu_button i").click(function(){
+				$(".menu_button").toggleClass("close");
+			});
+
+		});
+
+	</script>	
 </head>
 <body>
 
+		<a href="index.html"><img class="icon" src="images/pfa_icon.png"></a>
 
-	<div class="topnav">
-		<i class="fa fa-bars" aria-hidden="true"></i>
-		<div class="menu">
-  		<a href="about.html">ABOUT</a>
-  		<a href="threats.html">THREATS</a>
-  		<a href="conservation.html">CONSERVATION EFFORTS</a>
-  		<a href="you.html">WHAT CAN YOU DO</a>
-  		<a href="https://en.wikipedia.org/wiki/Pink_fairy_armadillo">SOURCE</a>
-  		</div>
-  		<a href="index.html"><img class="icon" src="armadillo_icon2.png"></a>
-	</div> 
-
+<div class="menu_button close"><i class="fa fa-bars" aria-hidden="true"></i></div>
+	<div class="menu open">
+		<a href="index.html">HOME</a>
+		<a href="about.html">ABOUT</a>
+		<a href="threats.html">THREATS</a>
+		<a href="conservation.html">CONSERVATION EFFORTS</a>
+		<a href="you.html">WHAT CAN YOU DO</a>
+	</div>
 	
-
 
 	<h1>Efforts to Conserve</h1>
 
 	<div class="text">
-		<p id="1">In 2006, the armadillo was placed in the near-threatened category on the IUCN Red List. In 2008 it was moved to the data deficient category due to the lack of scientific information on its population dynamics and natural history. Field sightings were confirmed to be rare and less common than before, even though pink fairy armadillo is already difficult to observe due to its nocturnal fossorial lifestyle.
-		</p>
-		<br>
+		<p class="b">In 2006, the armadillo was placed in the near-threatened category on the IUCN Red List.</p>
+		<p>In 2008 it was moved to the data deficient category due to the lack of scientific information on its population dynamics and natural history. Field sightings were confirmed to be rare and less common than before, even though pink fairy armadillo is already difficult to observe due to its nocturnal fossorial lifestyle.</p>
+
+		
 		<p id="2">Researchers have found that the pink fairy armadillo is highly subject to stress, making the attempts to apply any conservation policies (including taking it out of its natural environment) unsuccessful and extremely difficult. Any modifications in its environment, external temperature, or diet are known to trigger stress response, which is considered to be a possible reason for the failure of captivity attempts. Also, many of the armadillos have died during the transportation process from their wild habitat, and many more have only survived several days in captivity. Overall, there are only three reports of captive maintenance of pink fairy armadillo that are considered successful - in 1970, 1985, and 2009, reporting individuals to live in captivity for at least 30 months, 22 months, and 8 months respectively.</p>
-		<br>
-		<p id="3">This armadillo species is found in several protected areas, including the Lihué Calel National Park.[2] Both national and provincial legislation is in place specifically protecting the species.</p>
-		<br>
-		<br>
+		
+		<p id="3">This armadillo species is found in several protected areas, including the Lihué Calel National Park. Both national and provincial legislation is in place specifically protecting the species.</p>
+		
 	</div>
+
+
+<div class="footer">
+	<p><a href="https://en.wikipedia.org/wiki/Pink_fairy_armadillo">Source: Wikipedia</a></p>
+	<p>Art Direction by Sarah Rhee</p>
+	<p>Designed by Jess Ewald</p>
+</div>
 
 
 
